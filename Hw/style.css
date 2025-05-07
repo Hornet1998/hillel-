@@ -1,0 +1,41 @@
+.text {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 47px;
+    color: white;
+    margin-left: -300px;
+    
+  }
+  .wrapper {
+    font-weight: bold;
+  }
+  .box {
+    display: inline-block;
+    border: 3px solid black;
+    background-color: #f6f2f2;
+    text-align: center;
+    padding: 20px 10px ;
+    width: 255px;
+    height: 327px;
+    margin-left: 100px;
+    margin: 10px 24px;
+  }
+  p {
+    color: black;
+    font-size: 12px;
+    padding: 10px 5px 15px 20px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: rgb(87, 87, 207);
+    color: beige;
+    margin-right: 42px;
+    margin-left: 38px;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+  }
+  html,body {
+    background-color: rgb(176, 176, 244);
+  }
