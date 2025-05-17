@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Greenshop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="logo">
+            <img src="./img/Logo.png" alt="" class="logo-img" />
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Plant Care</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blogs</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="aside-items">
+            <div class="search">
+              <button class="search-button" type="button">
+                <img src="./img/Vector.png" alt="" class="search-img" />
+              </button>
+            </div>
+            <div class="basket">
+              <button class="basket-button" type="button">
+                <img src="./img/Group 1.png" alt="" class="basket-img" />
+              </button>
+            </div>
+            <div class="login">
+              <button class="login-button">
+                <img src="./img/Group 4.png" alt="" class="login-button-img" />
+                <span class="login-button-text">Login</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner-wrappers">
+          <div class="banner-container">
+            <h3 class="banner-list">Welcome to GreenShop</h3>
+            <h1 class="banner-title">
+              Let’s Make a <br />
+              Better <span class="first">Planet</span>
+            </h1>
+            <p class="text-line">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants. Use <br />
+              our plants to create an unique Urban Jungle. Order your favorite
+              plants!
+            </p>
+            <a href="#" class="banner-link">SHOP NOW</a>
+            <img
+              src="./img/photo_5244744832306508517_x.jpg"
+              alt=""
+              class="banner-img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 25px;
+      }
+
+      .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 25px;
+      }
+
+      .nav-list {
+        display: flex;
+        column-gap: 50px;
+      }
+
+      .nav-link {
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-weight: 200;
+        transition: all 0.2s ease;
+        padding-bottom: 4px;
+      }
+
+      .nav-link:hover {
+        box-shadow: 0px 2px 0px lime;
+        font-weight: 200px;
+        color: #131212;
+      }
+
+      .aside-items {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+      }
+
+      .basket-button {
+        background-color: transparent;
+      }
+
+      .search-button {
+        background-color: transparent;
+      }
+
+      .login-button {
+        background-color: #46a358;
+        color: #fff;
+        font-size: 16px;
+        padding: 8px 17px;
+        display: flex;
+        column-gap: 6px;
+        border-radius: 6px;
+        align-items: center;
+      }
+
+      .login-button:hover {
+        background-color: #27562a;
+        color: #fff;
+      }
+
+      .banner-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .banner {
+        margin-top: 68px;
+        padding: 68px 0;
+      }
+
+      .banner-list {
+        font-family: "Roboto";
+        text-transform: uppercase;
+        margin-bottom: 7px;
+        font-size: 14px;
+        color: #3d3d3d;
+      }
+
+      .banner-title {
+        font-family: "Roboto";
+        text-align: left;
+        margin: 0 auto;
+        font-weight: 900;
+        color: rgb(57, 56, 56);
+        text-transform: uppercase;
+        font-size: 70px;
+        padding: 7px 0 5px 0;
+      }
+
+      .first {
+        color: #46a358;
+      }
+
+      .text-line {
+        font-size: 14px;
+        color: #727272;
+        margin-top: 5px;
+      }
+
+      .banner-link {
+        font-family: "Roboto";
+        font-size: 16px;
+        display: inline-block;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 140px;
+        background-color: #06940d;
+        color: #fff;
+        align-items: center;
+        margin-top: 55px;
+        padding: 11px 25px 9px 25px;
+        border-radius: 6px;
+      }
+      .banner-link:hover {
+        background-color: #27562a;
+        color: #fff;
+      }
+
+      .banner-wrappers {
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+        padding: 0 40px;
+      }
+      .banner-img {
+        position: relative;
+        top: -350px;
+        display: flex;
+        margin-left: 600px;
+        height: 450px;
+      }
+    </style>
+  </body>
+</html>
