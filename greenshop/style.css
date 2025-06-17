@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
       @font-face {
         font-family: "Poppins bold";
         src: local("Poppins bold"),
@@ -41,6 +45,7 @@
         src: local("Poppins medium"),
           url("./fonts/Poppins-Medium.ttf") format("truetype");
       }
+    
       .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -52,28 +57,36 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 25px;
+        
       }
 
       .nav-list {
         display: flex;
         column-gap: 50px;
         margin-left: 230px;
+        position: relative;
+        
       }
 
+      
       .nav-link {
         color: black;
         display: block;
         text-decoration: none;
-        font-weight: 200;
+        
         transition: all 0.2s ease;
         padding-bottom: 4px;
+        position: relative;
+        font-family: "Encode Sans Expanded";
+        font-weight: 400;
       }
 
       .nav-link:hover {
         box-shadow: 0px 2px 0px lime;
-        font-weight: 200;
+        font-weight: 400;
         color: #131212;
       }
+
 
       .aside-items {
         display: flex;
@@ -139,6 +152,7 @@
         max-width: 100%;
         height: auto;
         display: block;
+        
       }
       .banner-list {
         font-family: "Roboto";
@@ -589,3 +603,78 @@
       .product-card:hover .product-wrapp{
         opacity: 1;
       }
+
+      .sub-list {
+        background-color: #EDF6EE;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        padding: 10px;
+        min-width: 180px;
+        z-index: 1000;
+        margin-top: 3px;
+        
+       
+      }
+
+     .list {
+      font-family: "Encode Sans Expanded";
+      font-size: 16px;
+      font-weight: 400;
+      display: block;
+      color: #3D3D3D;
+      width: 100%;
+      box-sizing: border-box;
+      
+     }
+     .list-block {
+     padding-right: 40px; 
+     }
+
+    .nav-item {
+      position: relative;
+     }
+
+     .nav-item:hover > .sub-list {
+      display: block;
+    }
+
+    .second-list {
+     position: absolute;
+     top: 0;
+     left: 100%;
+     display: none;
+     background-color: #edf6ee;
+     padding: 10px;
+     min-width: 190px;
+     z-index: 1001;
+     white-space: nowrap;
+     border-radius: 3px;
+     margin-left: -40px;
+
+    }
+    
+
+    .list-block:hover > .second-list {
+     display: block;
+    }
+
+    .sub-list .list-block,
+    .second-list .list-block {
+     padding: 6px 10px;
+    
+    }
+
+    .sub-list .list-block:hover,
+    .second-list .list-block:hover {
+     background-color: #1A712A;
+     
+    }
+
+    .sub-list .list-block .list:hover ,
+    .second-list .list-block:hover  {
+     color: #FFFFFF;
+    }
+
+    
