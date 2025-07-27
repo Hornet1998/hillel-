@@ -1,0 +1,61 @@
+.control {
+    margin-top: 80px;
+    width: 1150px;
+    margin-left: 80px;
+    &__boll {
+        font-family: "Work Sans";
+        font-weight: 600;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+    &__days {
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    &__back {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__tables {
+        width: 330px;
+        height: 440px;
+        background-color: #3B3B3B;
+        padding: 10px 30px 30px 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    &__tables:hover {
+        background-color: #444141;
+    }
+    &__lays {
+        width: 250px;
+        height: 250px;
+    }
+    &__shop {
+        font-family:"Work Sans";
+        font-weight: 600;
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    &__paragraf {
+        font-family:"Work Sans";
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 220px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+    }
+}

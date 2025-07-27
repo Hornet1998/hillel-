@@ -1,0 +1,30 @@
+.cosmos {
+    width: 1150px;
+    margin-left: 80px;
+    margin-top: 80px;
+    background-color:#3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px;
+    gap: 80px;
+    &__ban {
+        width: 425px;
+    }
+    &__list-nft {
+        display: grid;
+        width: 425px;
+    }
+    &__element {
+        font-family:"Work Sans";
+        font-weight: 600;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+    &__join {
+        font-family:"Work Sans";
+        font-weight:400;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+}

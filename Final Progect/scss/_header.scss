@@ -1,0 +1,61 @@
+.header {
+    &__wrapp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+&__logo-svg {
+    width: 100%;
+    height: 32px;
+}
+&__link {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 15px;
+}
+&__list {
+    font-family:"Work Sans";
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+&__list:hover {
+    color: #A259FF;
+}
+&__icon {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+&__stroke {
+    color: #fff;
+    font-family:"Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+&__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    background-color:#A259FF;
+    text-decoration: none;
+    font-family:"Work Sans";
+    font-weight: 600;
+    font-size: 16px;
+    width: 152px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+&__button:hover {
+    background-color: #6224b2;
+    transition: 1s;
+}
+&__vector {
+    width: 20px;
+    height: 20px;
+}
+}

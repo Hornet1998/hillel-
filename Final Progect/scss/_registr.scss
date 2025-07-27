@@ -1,0 +1,78 @@
+.registr {
+    display: flex;
+    justify-content: space-between;
+    &__penal {
+        width: 610px;
+    }
+    &__password {
+        margin-left: 60px;
+        margin-top: 100px;
+        
+    }
+    &__power {
+        margin-top: 40px;
+    }
+    &__second {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    &__run {
+        font-family:"Work Sans";
+        font-weight:600;
+        font-size: 51px;
+        color: #FFFFFF;
+    }
+    &__blur {
+        font-family:"Work Sans";
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    &__label {
+        position: relative;
+        width: 350px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    &__market {
+        position: absolute;
+        left: 16px;
+        top: 13px;
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+        
+    }
+    &__input {
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 16px;
+        color: #2B2B2B;
+        padding: 12px 16px 12px 48px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: block;  
+        width: 100%;
+        cursor: pointer;
+    }
+    &__include {
+        background-color: #A259FF;
+        width: 350px;
+        height: 45px;
+        border-radius: 20px;
+        padding: 12px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    &__include:hover{
+         background-color: #482875;
+    }
+    &__rebut {
+        font-family: "Work Sans";
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    
+}

@@ -1,0 +1,102 @@
+.slides {
+    margin-left: 80px;
+    width: 1150px;
+    &__nft {
+        margin-top: 140px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+    }
+    &__born {
+        display: grid;
+        row-gap: 10px;
+    }
+    &__title-nft {
+        font-family:"Work Sans";
+        font-weight: 600;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+    &__text-nft {
+        font-family:"Work Sans";
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    &__wrap-nft {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        padding: 19px 40px;
+        text-decoration: none;
+        font-family:"Work Sans";
+        font-weight: 600;
+        font-size: 16px;
+        width: 187px;
+        height: 60px;
+        background-color: #2B2B2B;
+        border-radius:20px;
+        border: 2px solid#A259FF;
+        cursor: pointer;
+        color:#FFFFFF;
+    }
+    &__wrap-nft:hover {
+        background-color: #6224b2;
+    }
+    &__hopes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    &__box-slide {
+        width: 330px;
+        height: 460px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    &__title-rock {
+        font-family:"Work Sans";
+        font-weight: 600;
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    &__gap {
+        display: flex;
+        justify-content: start;
+        margin-left: 30px;
+        gap: 12px;
+        margin-top: 5px;
+    }
+    &__name {
+        font-family:"Space Mono";
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &__blocks {
+        margin: 25px 30px;
+        
+    }
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__checks {
+        font-family:"Space Mono";
+        font-weight: 400;
+        font-size: 12px;
+        color: #858584;
+    }
+    &__price {
+        font-family:"Space Mono";
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-top: 8px;
+    }
+}

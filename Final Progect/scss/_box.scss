@@ -1,0 +1,29 @@
+.box {
+    margin-top: 80px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+
+&__font{
+    margin-top: 22px;
+    width: 510px;
+    height:109px;
+    padding: 22px 20px;
+}
+&__text {
+    font-family:"Work Sans";
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+&__list {
+    font-family:"Work Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-left: 12px;
+    align-items: center;
+}
+&__click {
+    margin-top: 10px;
+}
+}

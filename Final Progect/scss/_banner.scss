@@ -1,0 +1,62 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin-left: 80px;
+
+&__wrap {
+    width: 510px;
+    height: 222px;
+    margin-top: 80px;
+}
+&__title {
+    font-family:"Work Sans";
+    font-weight: 600;
+    color: #fff;
+    font-size: 67px;
+}
+&__text {
+    font-family:"Work Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 20px;
+    
+}
+&__but-wrap {
+    margin-top: 30px;
+    background-color: #A259FF;
+    display: block;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    border-radius: 20px;
+}
+&__but-wrap:hover {
+    background-color: #6224b2;
+}
+&__click {
+    font-family:"Work Sans";
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+&__list {
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    margin-top: 30px;
+}
+&__ban-wrap {
+    font-family:"Work Sans";
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+&__span {
+    font-family:"Space Mono";
+    font-weight: 700;
+    font-size: 28px;
+}
+
+}

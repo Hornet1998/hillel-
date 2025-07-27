@@ -1,0 +1,72 @@
+.hero {
+    margin-top: 140px;
+    margin-left: 80px;
+
+&__title {
+    font-family:"Work Sans";
+    font-weight:600;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+&__par {
+    font-family:"Work Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 10px;
+}
+&__check {
+    width: 1150px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+&__png {
+    width: 330px;
+    height: 445px;
+}
+&__icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+
+}
+&__numb {
+    display: flex;
+    align-items: center;
+    font-family:"Space Mono";
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    width: 100px;
+    height: 100px;
+    padding: 33px 16px;
+    cursor: pointer;
+}
+&__numb:hover {
+    background-color: #6224b2;
+}
+&__home {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+&__looc {
+    font-family:"Work Sans";
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+&__rem {
+    font-family:"Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+}

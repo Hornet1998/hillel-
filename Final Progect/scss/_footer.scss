@@ -1,0 +1,64 @@
+.footer {
+    width: 1150px;
+    &__block {
+        margin-left: 80px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__bottom {
+        width: 310px;
+    }
+    &__boxing {
+        font-family:"Work Sans";
+        font-weight: 400;
+        font-size: 16px;
+        color: #CCCCCC;
+        padding-top: 20px;
+    }
+    &__page-bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    &__svg {
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+    }
+    &__svg:hover {
+        border: 1px solid #970eb9;
+    }
+    &__title-link {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    &__end {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__rows {
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+     &__linege {
+        border: none;
+        height: 1px;
+        background-color: #858584; 
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    &__start {
+        font-family:"Work Sans";
+        font-weight: 400;
+        font-size: 12px;
+        color: #CCCCCC;
+        margin-top: 20px;
+    }
+   
+}
